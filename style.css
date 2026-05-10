@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url("./Img/img.webp");
+    background: url("./Img/Img02.avif");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -40,19 +40,19 @@ button {
     transition: opacity 0.5s ease-in-out;
 }
 
-button:hover{
+button:hover {
     opacity: 0.7;
 }
 
-#rock{
+#rock {
     background-color: #a200ff;
 }
 
-#paper{
+#paper {
     background-color: #9ee01a;
 }
 
-#scissors{
+#scissors {
     background-color: #7dbeed;
 }
 
@@ -61,10 +61,22 @@ p {
     margin-bottom: 10px;
 }
 
-.yourScore span{
+.yourScore span {
     color: rgb(35, 35, 158);
 }
 
-.computerScore span{
-    color: rgba(255, 0, 0, 0.829) ;
+.computerScore span {
+    color: rgba(255, 0, 0, 0.829);
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 15px;
 }
